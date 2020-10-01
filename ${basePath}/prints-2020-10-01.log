@@ -1,0 +1,7 @@
+18:12:08.884 [main] INFO  Academy.HomePageTest - Driver/Browser closed
+18:12:12.857 [main] INFO  Academy.LoginPageTest - Driver Initialized
+18:12:16.108 [main] INFO  Academy.LoginPageTest - Navigated to Internshala Homepage
+18:12:27.200 [main] INFO  Academy.LoginPageTest - Driver/Browser closed
+18:12:30.150 [main] INFO  Academy.NavBarCheck - Driver Initialized
+18:12:37.485 [main] INFO  Academy.NavBarCheck - Navigated to Internshala Homepage
+18:12:37.490 [main] INFO  Academy.NavBarCheck - Counting the scrallable cards links 

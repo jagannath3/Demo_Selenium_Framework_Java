@@ -1,12 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 226.484 s <<< FAILURE! - in TestSuite
-Academy.NavBarCheck.getScrollableCardLinks  Time elapsed: 10.968 s  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 61.398 s <<< FAILURE! - in TestSuite
+Academy.LoginPageTest.initLogin  Time elapsed: 10.721 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HPAF008AX', ip: '192.168.1.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1235dbed6c4d00719e2ae3f93cdb42d
+	at Academy.LoginPageTest.initLogin(LoginPageTest.java:33)
+
+Academy.NavBarCheck.getScrollableCardLinks  Time elapsed: 0.489 s  <<< FAILURE!
 java.lang.AssertionError: expected [22] but found [24]
 	at Academy.NavBarCheck.getScrollableCardLinks(NavBarCheck.java:44)
-
-Academy.NavBarCheck.navBarDisplay  Time elapsed: 0.755 s  <<< FAILURE!
-java.lang.AssertionError: expected [false] but found [true]
-	at Academy.NavBarCheck.navBarDisplay(NavBarCheck.java:36)
 

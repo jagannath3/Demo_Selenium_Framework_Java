@@ -4,13 +4,23 @@
   <listeners>
     <listener class-name="Academy.Listeners"/>
   </listeners>
+  <test thread-count="5" name="Login(failed)" verbose="0">
+    <classes>
+      <class name="Academy.LoginPageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initLogin"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- Academy.LoginPageTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
   <test thread-count="5" name="Validating NavBar(failed)" verbose="0">
     <classes>
       <class name="Academy.NavBarCheck">
         <methods>
           <include name="initDrive"/>
           <include name="getScrollableCardLinks"/>
-          <include name="navBarDisplay"/>
           <include name="driverClose"/>
         </methods>
       </class> <!-- Academy.NavBarCheck -->

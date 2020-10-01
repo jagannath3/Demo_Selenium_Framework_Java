@@ -9,24 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Selecting City</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">75,523</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,853</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Validating NavBar</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">71,648</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">191,024</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Selecting City</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,762</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Login</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,843</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Validating NavBar</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,994</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">56,599</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selecting City &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.HomePageTest</td><td><a href="#m0">selectCity</a></td><td rowspan="1">1601127887595</td><td rowspan="1">7228</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.LoginPageTest</td><td><a href="#m1">initLogin</a></td><td rowspan="1">1601127921563</td><td rowspan="1">18544</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Validating NavBar &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Academy.NavBarCheck</td><td><a href="#m2">getScrollableCardLinks</a></td><td rowspan="1">1601128022616</td><td rowspan="1">9905</td></tr><tr class="failedeven"><td><a href="#m3">navBarDisplay</a></td><td rowspan="1">1601128033611</td><td rowspan="1">256</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selecting City &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.HomePageTest</td><td><a href="#m0">selectCity</a></td><td rowspan="1">1601556124416</td><td rowspan="1">4103</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Academy.LoginPageTest</td><td><a href="#m1">initLogin</a></td><td rowspan="1">1601556136111</td><td rowspan="1">10327</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Validating NavBar &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Academy.NavBarCheck</td><td><a href="#m2">getScrollableCardLinks</a></td><td rowspan="1">1601556157489</td><td rowspan="1">98</td></tr><tr><th colspan="4">Validating NavBar &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.NavBarCheck</td><td><a href="#m3">navBarDisplay</a></td><td rowspan="1">1601556158089</td><td rowspan="1">488</td></tr></tbody>
 </table>
 <h2>Selecting City</h2><h3 id="m0">Academy.HomePageTest#selectCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Login</h2><h3 id="m1">Academy.LoginPageTest#initLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login</h2><h3 id="m1">Academy.LoginPageTest#initLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: headless chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HPAF008AX&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1235dbed6c4d00719e2ae3f93cdb42d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Academy.LoginPageTest.initLogin(LoginPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>Validating NavBar</h2><h3 id="m2">Academy.NavBarCheck#getScrollableCardLinks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [22] but found [24]
 	at Academy.NavBarCheck.getScrollableCardLinks(NavBarCheck.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Academy.NavBarCheck#navBarDisplay</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
-	at Academy.NavBarCheck.navBarDisplay(NavBarCheck.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Academy.NavBarCheck#navBarDisplay</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
