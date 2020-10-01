@@ -1,0 +1,7 @@
+19:15:22.479 [main] DEBUG Academy.LoginPageTest - Clicked the on Login button
+19:15:29.900 [main] DEBUG Academy.LoginPageTest - Entered Email ID
+19:15:35.349 [main] DEBUG Academy.LoginPageTest - Entered Password
+19:15:40.107 [main] INFO  Academy.LoginPageTest - Clicked on Login button
+19:15:42.578 [main] INFO  Academy.LoginPageTest - Driver/Browser closed
+19:16:41.985 [main] INFO  Academy.NavBarCheck - Driver Initialozed
+19:17:02.613 [main] INFO  Academy.NavBarCheck - Navigated to Internshala Homepage
